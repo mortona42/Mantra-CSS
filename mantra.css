@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     max-width: 42rem;
     margin: auto;
@@ -11,7 +15,27 @@ body {
 
 a {
     color: black;
-    text-decoration: dotted;
+    text-decoration-style: dotted;
+}
+
+p {
+    line-height: 1.5;
+    margin: .5rem 0;
+}
+
+code {
+    white-space: pre;
+}
+
+hr {
+    margin: 1rem 0;
+    border: 1px solid black;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    margin: 2rem 0 .5rem;
+    font-weight: normal;
 }
 
 h1 {
@@ -36,4 +60,27 @@ h5 {
 
 h6 {
     font-size: 1.125rem;
+}
+
+/* Forms */
+form {
+    margin: 1rem 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-item {
+    margin-bottom: .5rem;
+}
+
+/* Utilities */
+.flex {
+    display: flex;
+}
+
+.overflow-scroll {
+    overflow: scroll;
 }
