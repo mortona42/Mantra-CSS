@@ -2,6 +2,7 @@ body {
     max-width: 42rem;
     margin: auto;
     font-family: sans-serif;
+    color: red;
 }
 
 .site-name a {

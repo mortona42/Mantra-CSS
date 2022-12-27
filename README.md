@@ -1,6 +1,7 @@
 # Mantra CSS
 Simple styles.
 
+
 ## Color
 Black and white.
 
@@ -9,4 +10,13 @@ Sans serif.
 
 ## Layout
 42rem max width.
-1rem body padding.
+
+---
+
+# Forms
+
+<form>
+<div class="form-item">
+    <input type="text">
+</div>
+</form>
