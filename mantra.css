@@ -75,12 +75,3 @@ label {
 .form-item {
     margin-bottom: .5rem;
 }
-
-/* Utilities */
-.flex {
-    display: flex;
-}
-
-.overflow-scroll {
-    overflow: scroll;
-}
