@@ -25,8 +25,8 @@ jobs:
         uses: ZacJW/markdown-html-action@1.1.1
         with:
           # A JSON list of a list of paths to markdown files to render in to HTML files
-          input_files: README.md
+          input_files: '[["README.md"]]'
           # A JSON list of paths to save the rendered HTML files to
-          output_files: index.html
+          output_files: '["index.html"]'
           # An optional path to a CSS file that will be included as a <style> block in every output file
-          builtin_stylesheet: mantra.css # default is 
+          builtin_stylesheet: 'mantra.css' # default is 
